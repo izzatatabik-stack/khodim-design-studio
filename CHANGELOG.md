@@ -26,3 +26,11 @@ All notable changes to the KHODIM Design Studio project will be documented in th
 - Installed form handling & validation: `react-hook-form`, `zod`, and `@hookform/resolvers`.
 - Installed icon package: `lucide-react`.
 - Initializing `shadcn/ui` component primitives.
+
+---
+
+## [0.4.0] - Sprint 0.4: Application Shell - DONE
+### Added
+- Created atomic layout components: `AppLayout`, `Sidebar`, `TopHeader`, `Workspace`, `Logo`, and `Navigation`.
+- Transformed `src/app/layout.tsx` into a thin wrapper pushing all visual shell definitions into the decoupled component layout architecture.
+- Built full desktop layout grid incorporating locked sidebar navigation and dynamic content viewport.
