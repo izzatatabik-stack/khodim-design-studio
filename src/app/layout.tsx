@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import AppLayout from "@/components/layout/AppLayout"
+import AppLayout from "@/shared/layout/AppLayout"
 
 export const metadata: Metadata = {
   title: "KHODIM Design Studio",
