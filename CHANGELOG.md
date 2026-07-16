@@ -34,3 +34,13 @@ All notable changes to the KHODIM Design Studio project will be documented in th
 - Created atomic layout components: `AppLayout`, `Sidebar`, `TopHeader`, `Workspace`, `Logo`, and `Navigation`.
 - Transformed `src/app/layout.tsx` into a thin wrapper pushing all visual shell definitions into the decoupled component layout architecture.
 - Built full desktop layout grid incorporating locked sidebar navigation and dynamic content viewport.
+
+---
+
+## [1.0.0] - Sprint 1: AI Prompt Studio (MVP) - DONE
+### Added
+- Implemented core domain types for `PromptVariable` and `PromptState`.
+- Created pure domain engine logic in `utils/engine.ts` for real-time variable extraction and text compile simulation.
+- Designed lightweight Zustand ledger store (`prompt.store.ts`) decoupled from business logic.
+- Built atomic UI interface components: `PromptForm` (with dynamic input generation) and `PromptPreview`.
+- Exposed features via main slice entrypoint (`index.tsx`) and connected to the global workspace.
